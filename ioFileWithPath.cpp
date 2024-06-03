@@ -10,6 +10,8 @@ int main(){
     cout << "Masukan Nama File: ";
     cin >> NamaFile;
 
-    //membuka file dala mode nulis
+    //membuka file dalam mode nulis
     ofstream outfile;
+    //menunjuk kesebuah nama file
+    outfile.open(NamaFile + ".txt", ios::out);
 }
