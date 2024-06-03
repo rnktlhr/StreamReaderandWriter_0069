@@ -9,4 +9,8 @@ int main(){
         array<int, 4> data = {8, 4, 7, 2};
         cout << data.at(5) << endl;
     }
+
+    catch (exception& e) {
+        cout << e.what() << endl;
+    }
 }
